@@ -4,7 +4,7 @@ pipeline{
     APP_NAME = "register-app-pipe"
   }
   stages{
-    stage(Cleanup WorkSpace){
+    stage("Cleanup WorkSpace"){
       steps{
         cleanWs()
       }
